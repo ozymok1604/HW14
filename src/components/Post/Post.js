@@ -5,12 +5,7 @@ import "./Post.css";
 import { Like } from "./Like";
 import { Text } from "./text";
 
-function Post(props) {
-  const name = props.name;
-  console.log(name);
-  const avatarSrc = props.avatarSrc;
-  const text = props.text;
-  const postSrc = props.postSrc;
+function Post({ name, avatarSrc, text, postSrc }) {
   return (
     <div className="App">
       <User name={name} avatarSrc={avatarSrc} />

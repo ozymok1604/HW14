@@ -1,8 +1,6 @@
 import React from "react";
 
-function Text(props) {
-  const text = props.text;
-
+function Text({ text }) {
   return (
     <div class="likes">
       Позначки «Подобається»: 11 884
